@@ -1,0 +1,13 @@
+# Ignore ESP-IDF framework and all submodules
+ESP32-WROOM-32UE/examples/blink/components/esp/v5.5.3/esp-idf/
+
+# Ignore build folders
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python virtual environments
+.venv/
